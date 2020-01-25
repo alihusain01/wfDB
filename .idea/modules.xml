@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/githubFolder.iml" filepath="$PROJECT_DIR$/.idea/githubFolder.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/wfDB.iml" filepath="$PROJECT_DIR$/.idea/wfDB.iml" />
+>>>>>>> origin/master
     </modules>
   </component>
 </project>
