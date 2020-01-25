@@ -1,0 +1,48 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+#logo{
+    margin: 0;
+    padding:0;
+    background-color: #8d1401;
+    border: #8d14http://localhost:63342/wfDB/photos/shslogo.png01;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font:normal 16px/1 'Fira Sans', sans-serif;
+
+}
+
+#question{
+text-align: center;
+    color: #272727;
+    font:normal 24px/1 'Fira Sans', sans-serif;
+}
+
+#selections{
+    margin: 6px ;
+    color: #272727;
+    font:normal 24px/1 'Fira Sans', sans-serif;
+}
+
+#box-main
+{
+    background-color: #E6E6E6;
+    margin: 24px 24px 24px 24px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
