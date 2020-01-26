@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="registration.css">
     <script src="registration.js"></script>
     <meta charset="UTF-8">
-    <title>Registration</title>
-    <h1>Registration</h1>
-
-    <form action="/action_page.php">
-        Full Name: <input type="text" name="name"><br>
-        Student ID: <input type="text" name="sid"><br>
-        Are you bringing a guest?
-        <div horizontal layout>
-
-          <input type="radio" id="myCheck" onclick="myFunction()"/>   Yes<br />
-         <input type="radio" id="myCheck2" onclick="myFunction2()"/>   No<br />
-            <p id="text" style="display:none">
-                Full Name: <input type="text" name="name"><br>
-                Student ID: <input type="text" name="sid"><br>
-                School: <input type="text" name="school"><br>
-            </p>
-
-            <input type="submit" value="Submit">
+    <style > body {margin:0;}</style>
+    <header id="logo">
+        <div id="shslogo">
+            <img src="photos/shslogo.png" height="100" width="103"/>
         </div>
+        <style > header {margin:0;}</style>
+        <div class="header">
+            <h2>1</h2>
+
+        </div>
+    </header>
+    <div id="box-main">
+        <title>Registration</title>
+        <h1>Registration</h1>
+
+        <form action="/action_page.php">
+            Full Name: <input type="text" name="name"><br>
+            Student ID: <input type="text" name="sid"><br>
+            Are you bringing a guest?
+            <div horizontal layout>
+
+                <input type="radio" id="myCheck" onclick="myFunction()"/>   Yes<br />
+                <input type="radio" id="myCheck2" onclick="myFunction2()"/>   No<br />
+                <p id="text" style="display:none">
+                    Full Name: <input type="text" name="name" ><br>
+                    Student ID: <input type="text" name="sid"><br>
+                    School: <input type="text" name="school"><br>
+                </p>
+
+                <input type="submit" value="Submit">
+            </div>
 
 
-    </form>
+        </form>
 
-</head>
+        </head>
 <body>
 
 </body>

@@ -18,9 +18,10 @@ function myFunction2() {
     var text = document.getElementById("text");
 
     if ( radio.checked == true){
-        text.style.display = "block";
-    } else {
         text.style.display = "none";
+    } else {
+
+
     }
 
 }
