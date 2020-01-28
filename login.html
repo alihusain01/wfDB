@@ -2,17 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="login.js"></script>
+    <style > body {margin:0;}</style>
 </head>
-<body>
-    function TeachLog(){
 
+<header id="logo">
+    <div id="shslogo">
+        <img src="photos/shslogo.png" height="100" width="103"/>
+    </div>
+</header>
 
+<form id="main">
 
-    Username: <input type="text" placeholder="Username">
-    Password: <input type="text" placeholder="Password">
-    <input type="button" value="Login" onclick="TeachLog()">
+    Username: <input id="inputUser" type="text" placeholder="Username"><br>
+    Password: <input id="inputPass" type="text" placeholder="Password"><br>
 
+    <input type="button" value="Login" onclick="test()">
 
-</body>
+</form>
+
 </html>
+
+
+
