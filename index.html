@@ -5,6 +5,8 @@
     <title>Title</title>
     <h1>This is a Heading</h1>
     <p>This is a paragraph.</p>
+    <script src="index.js"></script>
+
 
 </head>
 <body>
@@ -40,6 +42,9 @@
         measurementId: "G-90KMCR93K6"
     };
     // Initialize Firebase
+
+    import * as firebase from 'firebase/app';
+
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
 

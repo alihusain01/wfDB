@@ -1,0 +1,1 @@
+const defaultAnalytics = firebase.analytics();
