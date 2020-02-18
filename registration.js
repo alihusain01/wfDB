@@ -17,11 +17,21 @@ function myFunction2() {
 
     var text = document.getElementById("text");
 
-    if ( radio.checked == true){
+    if (radio.checked == true) {
         text.style.display = "none";
     } else {
 
 
     }
-
 }
+
+    function writeUserData(name, ID, Guest) {
+        firebase.database().collection("StudentDirectory").add({
+            Name: document.getElementById(name),
+            ID: document.getElementById(ID),
+            Guest: document.getElementById(Guest),
+
+
+        }).then(r => 0) ;
+    }
+

@@ -21,20 +21,21 @@
         <h1>Registration</h1>
 
         <form action="/action_page.php">
-            Full Name: <input type="text" name="name"><br>
-            Student ID: <input type="text" name="sid"><br>
+            Full Name: <input type="text" id="name"><br>
+
+            Student ID: <input type="text" id="sid"><br>
             Are you bringing a guest?
             <div horizontal layout>
 
                 <input type="radio" id="myCheck" onclick="myFunction()"/>   Yes<br />
                 <input type="radio" id="myCheck2" onclick="myFunction2()"/>   No<br />
                 <p id="text" style="display:none">
-                    Full Name: <input type="text" name="name" ><br>
-                    Student ID: <input type="text" name="sid"><br>
+                    Full Name: <input type="text" name="name2" ><br>
+                    Student ID: <input type="text" name="sid2"><br>
                     School: <input type="text" name="school"><br>
                 </p>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" onclick="writeUserData(document.getElementById(name), document.getElementById(ID), document.getElementById(Guest))"/>
             </div>
 
 
